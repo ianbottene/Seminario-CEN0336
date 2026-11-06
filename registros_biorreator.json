@@ -1,98 +1,206 @@
 [
     {
-        "data": "2026-11-05",
-        "hora": "20:15:43",
+        "data": "2026-11-06",
+        "hora": "14:22:16",
         "leituras": {
-            "temperatura": "14.73 ºC",
-            "pH": 7.15
+            "temperatura_C": 31.17,
+            "pH": 8.02,
+            "carbono_mg_L": 525.78,
+            "nitrogenio_mg_L": 1282.16,
+            "fosforo_mg_L": 3039.77,
+            "magnesio_mg_L": 298.33,
+            "ferro_mg_L": 7.98,
+            "zinco_mg_L": 1.82,
+            "manganes_mg_L": 3.09,
+            "cobre_mg_L": 0.47,
+            "molibdenio_mg_L": 0.66
         }
     },
     {
-        "data": "2026-11-05",
-        "hora": "20:15:43",
+        "data": "2026-11-06",
+        "hora": "14:22:16",
         "leituras": {
-            "temperatura": "15.56 ºC",
-            "pH": 6.6
+            "temperatura_C": 30.26,
+            "pH": 7.78,
+            "carbono_mg_L": 537.87,
+            "nitrogenio_mg_L": 1284.31,
+            "fosforo_mg_L": 2982.93,
+            "magnesio_mg_L": 303.47,
+            "ferro_mg_L": 8.82,
+            "zinco_mg_L": 2.66,
+            "manganes_mg_L": 2.98,
+            "cobre_mg_L": 0.48,
+            "molibdenio_mg_L": 0.63
         }
     },
     {
-        "data": "2026-11-05",
-        "hora": "20:15:43",
+        "data": "2026-11-06",
+        "hora": "14:22:16",
         "leituras": {
-            "temperatura": "16.17 ºC",
-		    "pH": 6.48
+            "temperatura_C": 29.92,
+            "pH": 7.71,
+            "carbono_mg_L": 554.03,
+            "nitrogenio_mg_L": 1268.77,
+            "fosforo_mg_L": 3073.04,
+            "magnesio_mg_L": 303.13,
+            "ferro_mg_L": 7.91,
+            "zinco_mg_L": 2.84,
+            "manganes_mg_L": 2.87,
+            "cobre_mg_L": 0.59,
+            "molibdenio_mg_L": 0.57
         }
     },
     {
-        "data": "2026-11-05",
-        "hora": "20:15:43",
+        "data": "2026-11-06",
+        "hora": "14:22:16",
         "leituras": {
-            "temperatura": "16.69 ºC",
-            "pH": 6.86
+            "temperatura_C": 30.8,
+            "pH": 7.45,
+            "carbono_mg_L": 541.16,
+            "nitrogenio_mg_L": 1251.52,
+            "fosforo_mg_L": 3033.0,
+            "magnesio_mg_L": 297.4,
+            "ferro_mg_L": 9.15,
+            "zinco_mg_L": 3.19,
+            "manganes_mg_L": 2.82,
+            "cobre_mg_L": 0.55,
+            "molibdenio_mg_L": 0.51
         }
     },
     {
-        "data": "2026-11-05",
-        "hora": "20:15:43",
+        "data": "2026-11-06",
+        "hora": "14:22:16",
         "leituras": {
-            "temperatura": "17.78 ºC",
-            "pH": 7.3
+            "temperatura_C": 28.91,
+            "pH": 7.37,
+            "carbono_mg_L": 560.13,
+            "nitrogenio_mg_L": 1249.13,
+            "fosforo_mg_L": 3007.95,
+            "magnesio_mg_L": 304.09,
+            "ferro_mg_L": 9.1,
+            "zinco_mg_L": 2.79,
+            "manganes_mg_L": 2.8,
+            "cobre_mg_L": 0.57,
+            "molibdenio_mg_L": 0.52
         }
     },
     {
-        "data": "2026-11-05",
-        "hora": "20:15:43",
+        "data": "2026-11-06",
+        "hora": "14:22:16",
         "leituras": {
-            "temperatura": "17.28 ºC",
-            "pH": 6.59
+            "temperatura_C": 30.07,
+            "pH": 7.15,
+            "carbono_mg_L": 550.95,
+            "nitrogenio_mg_L": 1259.5,
+            "fosforo_mg_L": 2974.85,
+            "magnesio_mg_L": 302.36,
+            "ferro_mg_L": 8.35,
+            "zinco_mg_L": 3.16,
+            "manganes_mg_L": 2.71,
+            "cobre_mg_L": 0.53,
+            "molibdenio_mg_L": 0.44
         }
     },
     {
-        "data": "2026-11-05",
-        "hora": "20:15:43",
+        "data": "2026-11-06",
+        "hora": "14:22:16",
         "leituras": {
-            "temperatura": "18.23 ºC",
-            "pH": 6.7
+            "temperatura_C": 29.9,
+            "pH": 6.89,
+            "carbono_mg_L": 550.27,
+            "nitrogenio_mg_L": 1252.86,
+            "fosforo_mg_L": 3047.43,
+            "magnesio_mg_L": 299.81,
+            "ferro_mg_L": 8.68,
+            "zinco_mg_L": 2.96,
+            "manganes_mg_L": 2.53,
+            "cobre_mg_L": 0.48,
+            "molibdenio_mg_L": 0.59
         }
     },
     {
-        "data": "2026-11-05",
-        "hora": "20:15:43",
+        "data": "2026-11-06",
+        "hora": "14:22:16",
         "leituras": {
-            "temperatura": "17.53 ºC",
-            "pH": 7.2
+            "temperatura_C": 30.7,
+            "pH": 6.91,
+            "carbono_mg_L": 538.36,
+            "nitrogenio_mg_L": 1250.19,
+            "fosforo_mg_L": 3012.23,
+            "magnesio_mg_L": 307.48,
+            "ferro_mg_L": 8.22,
+            "zinco_mg_L": 3.72,
+            "manganes_mg_L": 2.53,
+            "cobre_mg_L": 0.54,
+            "molibdenio_mg_L": 0.54
         }
     },
     {
-        "data": "2026-11-05",
-        "hora": "20:15:43",
+        "data": "2026-11-06",
+        "hora": "14:22:16",
         "leituras": {
-            "temperatura": "19.17 ºC",
-            "pH": 6.69
+            "temperatura_C": 30.06,
+            "pH": 7.41,
+            "carbono_mg_L": 559.77,
+            "nitrogenio_mg_L": 1245.15,
+            "fosforo_mg_L": 3001.92,
+            "magnesio_mg_L": 304.79,
+            "ferro_mg_L": 7.98,
+            "zinco_mg_L": 3.47,
+            "manganes_mg_L": 2.39,
+            "cobre_mg_L": 0.53,
+            "molibdenio_mg_L": 0.44
         }
     },
     {
-        "data": "2026-11-05",
-        "hora": "20:15:43",
+        "data": "2026-11-06",
+        "hora": "14:22:16",
         "leituras": {
-            "temperatura": "19.44 ºC",
-            "pH": 7.13
+            "temperatura_C": 29.09,
+            "pH": 7.1,
+            "carbono_mg_L": 551.05,
+            "nitrogenio_mg_L": 1275.31,
+            "fosforo_mg_L": 2965.68,
+            "magnesio_mg_L": 301.38,
+            "ferro_mg_L": 8.23,
+            "zinco_mg_L": 3.43,
+            "manganes_mg_L": 2.51,
+            "cobre_mg_L": 0.46,
+            "molibdenio_mg_L": 0.53
         }
     },
     {
-        "data": "2026-11-05",
-        "hora": "20:15:43",
+        "data": "2026-11-06",
+        "hora": "14:22:16",
         "leituras": {
-            "temperatura": "19.91 ºC",
-            "pH": 6.71
+            "temperatura_C": 29.94,
+            "pH": 6.91,
+            "carbono_mg_L": 547.1,
+            "nitrogenio_mg_L": 1245.89,
+            "fosforo_mg_L": 3038.64,
+            "magnesio_mg_L": 297.47,
+            "ferro_mg_L": 7.68,
+            "zinco_mg_L": 3.24,
+            "manganes_mg_L": 2.41,
+            "cobre_mg_L": 0.58,
+            "molibdenio_mg_L": 0.55
         }
     },
     {
-        "data": "2026-11-05",
-        "hora": "20:15:43",
+        "data": "2026-11-06",
+        "hora": "14:22:16",
         "leituras": {
-            "temperatura": "20.08 ºC",
-            "pH": 6.99
+            "temperatura_C": 30.7,
+            "pH": 7.35,
+            "carbono_mg_L": 556.17,
+            "nitrogenio_mg_L": 1275.01,
+            "fosforo_mg_L": 3016.0,
+            "magnesio_mg_L": 308.35,
+            "ferro_mg_L": 9.26,
+            "zinco_mg_L": 2.91,
+            "manganes_mg_L": 2.15,
+            "cobre_mg_L": 0.57,
+            "molibdenio_mg_L": 0.47
         }
     }
 ]

@@ -11,7 +11,6 @@ setpoint_carbono = 550 #mg/L de Glicerol ou Glicose
 setpoint_nitrogenio = 1250 #mg/L NH4-+
 setpoint_fosforo = 3000 #mg/L de fosfatos
 setpoint_magnesio = 300 #mg/L Mg-2+
-setpoint_calcio = 30 #mg/L Ca-2+
 setpoint_ferro = 8 #mg/L Fe-2+/Fe-3+
 setpoint_zinco = 3 #mg/L Zn-2+
 setpoint_manganes = 2 #mg/L Mn-2+
@@ -27,7 +26,6 @@ carbono_atual = random.randint(500, 600)
 nitrogenio_atual = random.randint(1200, 1300)
 fosforo_atual = random.randint(2900, 3100)
 magnesio_atual = random.randint(250, 350)
-calcio_atual = random.randint(25, 35)
 ferro_atual = random.randint(5, 10)
 zinco_atual = random.randint(2, 4)
 manganes_atual = random.randint(1, 3)
@@ -43,7 +41,6 @@ print(f"Carbono Inicial Sorteado: {carbono_atual:.2f} mg/L")
 print(f"Nitrogênio Inicial Sorteado: {nitrogenio_atual:.2f} mg/L")
 print(f"Fósforo Inicial Sorteado: {fosforo_atual:.2f} mg/L")
 print(f"Magnésio Inicial Sorteado: {magnesio_atual:.2f} mg/L")
-print(f"Cálcio Inicial Sorteado: {calcio_atual:.2f} mg/L")
 print(f"Ferro Inicial Sorteado: {ferro_atual:.2f} mg/L")
 print(f"Zinco Inicial Sorteado: {zinco_atual:.2f} mg/L")
 print(f"Manganês Inicial Sorteado: {manganes_atual:.2f} mg/L")
@@ -102,7 +99,6 @@ for ciclo in range(1, total_ciclos + 1):
     nitrogenio_com_erro = nitrogenio_atual + random.uniform(-10, 10)
     fosforo_com_erro = fosforo_atual + random.uniform(-20, 20)
     magnesio_com_erro = magnesio_atual + random.uniform(-2, 2)
-    calcio_com_erro = calcio_atual + random.uniform(-1, 1)
     ferro_com_erro = ferro_atual + random.uniform(-0.5, 0.5)
     zinco_com_erro = zinco_atual + random.uniform(-0.2, 0.2)
     manganes_com_erro = manganes_atual + random.uniform(-0.1, 0.1)
@@ -139,13 +135,6 @@ for ciclo in range(1, total_ciclos + 1):
         nutrientes_injetados.append("Magnésio")
     else:
         magnesio_atual -= random.uniform(1, 5)
-
-    # Cálcio
-    if calcio_com_erro < setpoint_calcio:
-        calcio_atual += random.uniform(1, 3)
-        nutrientes_injetados.append("Cálcio")
-    else:
-        calcio_atual -= random.uniform(0.2, 1)
 
     # Ferro
     if ferro_com_erro < setpoint_ferro:
@@ -201,7 +190,6 @@ for ciclo in range(1, total_ciclos + 1):
             "nitrogenio_mg_L": round(nitrogenio_com_erro, 2),
             "fosforo_mg_L": round(fosforo_com_erro, 2),
             "magnesio_mg_L": round(magnesio_com_erro, 2),
-            "calcio_mg_L": round(calcio_com_erro, 2),
             "ferro_mg_L": round(ferro_com_erro, 2),
             "zinco_mg_L": round(zinco_com_erro, 2),
             "manganes_mg_L": round(manganes_com_erro, 2),
